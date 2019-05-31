@@ -19,7 +19,7 @@ const StandardParser: Parser = {
       // windows output includes stack traces from
       // webdriver so we filter those out here
       if (!/node_modules/.test(match[1])) {
-        failedSpecs.add(match[1])
+        failedSpecs.add(match[1].replace('src', 'target/src').replace('spec.ts', 'spec.js'));
       }
     }
 
