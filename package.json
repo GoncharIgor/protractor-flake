@@ -1,5 +1,5 @@
 {
-  "name": "protractor-flake",
+  "name": "protractor-flake-custom-ts-path",
   "description": "A wrapper for protractor to automatically re-run failed specs for a specific number of attempts",
   "main": "lib/index.js",
   "repository": {
@@ -94,5 +94,5 @@
   "engines": {
     "node": ">=6.9.x"
   },
-  "version": "0.0.1-placeholder"
+  "version": "0.0.1-custom-ts-path.1"
 }
